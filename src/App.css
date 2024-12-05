@@ -11,12 +11,14 @@
     display: flex;
     flex-wrap: wrap;/* 自動換行 */
     justify-content: space-between;
+
 }
 .item {
-    border: 1px solid #ccc;
     width: 550px;
+    border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 .item h3 {
     background-color: #ccc;
@@ -26,6 +28,6 @@
 }
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 0;
 }
